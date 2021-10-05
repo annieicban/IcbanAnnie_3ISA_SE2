@@ -3,6 +3,6 @@ var stream;
 stream = fs.createReadStream("D://info2.txt");
 
 stream.on("info2", function(data){
-    var hello = data.toString();
-    console.log(hello);
+    var twix = data.toString();
+    console.log(twix);
 });
